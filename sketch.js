@@ -609,7 +609,7 @@ function draw() {
       stroke(20);
       fill(221, 207, 6);
       text("Score : " + score,width - 500, 80);
-    }else{
+    }else(score <= 20){
       textSize(60);
       stroke(20);
       fill(13, 221, 6);
